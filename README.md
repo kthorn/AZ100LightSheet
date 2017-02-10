@@ -23,3 +23,4 @@ This repository contains files for building a simple light sheet system based on
 * [Arduino SMB-BNC box.stl: same part, STL format](Arduino SMB-BNC box.stl)
 * [Arduino SMB-BNC box lid.ipt: Lid for Arduino enclosure (Autocad Inventor Format)](Arduino SMB-BNC box lid.ipt)
 * [Arduino SMB-BNC box lid.stl: same part, STL format](Arduino SMB-BNC box lid.stl)
+* [LightSheetControl: folder for LightSheetControl plugin.](LightSheetControl) This works with the Utilities / MultiStage device to set the relationship between the objective and cuvette Z-stages. The user defines pairs of stage coordinates where the sample is well focused, and this plugin calculates the best fit line to the points and updates the MultiStage device appropriately.
